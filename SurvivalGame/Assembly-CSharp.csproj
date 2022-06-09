@@ -36,11 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Island\Scripts\WaterScroller.cs" />
-     <Compile Include="Assets\Island\Scripts\FixedTiling.cs" />
-     <Compile Include="Assets\scripts\PlayerController.cs" />
-     <None Include="Assets\Water Shader\Water_Shader.shader" />
-     <None Include="Assets\Island\Readme FIRST!.txt" />
+     <Compile Include="Assets\03.Download Package\Island\Scripts\WaterScroller.cs" />
+     <Compile Include="Assets\03.Download Package\Island\Scripts\FixedTiling.cs" />
+     <Compile Include="Assets\01.Scripts\PlayerController.cs" />
+     <Compile Include="Assets\03.Download Package\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
+     <None Include="Assets\03.Download Package\LowPolyTree\LowPolyTreePack\README.txt" />
+     <None Include="Assets\02.Materials\Water Shader\Water_Shader.shader" />
+     <None Include="Assets\03.Download Package\Island\Readme FIRST!.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
