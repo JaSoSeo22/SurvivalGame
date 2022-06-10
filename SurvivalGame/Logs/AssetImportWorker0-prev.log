@@ -15,11 +15,11 @@ E:/Unity/GItHub/SurvivalGame/SurvivalGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64587
+58240
 Successfully changed project path to: E:/Unity/GItHub/SurvivalGame/SurvivalGame
 E:/Unity/GItHub/SurvivalGame/SurvivalGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 26.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -34,92 +34,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001389 seconds.
+Registered in 0.001436 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.514 seconds
+- Completed reload, in  0.573 seconds
 Domain Reload Profiling:
-	ReloadAssembly (515ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (573ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (401ms)
-			LoadAssemblies (45ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (153ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (160ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (28ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001764 seconds.
+Registered in 0.001968 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.907 seconds
+- Completed reload, in  0.981 seconds
 Domain Reload Profiling:
-	ReloadAssembly (907ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (140ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (710ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (264ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (293ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (153ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1506 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 82.5 MB.
-System memory in use after: 82.6 MB.
+Unloading 1507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.5 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1961.
-Total: 2.150700 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.900900 ms  DeleteObjects: 0.087100 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 2.434800 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.168100 ms  DeleteObjects: 0.100100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,189 +134,417 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(cb442b26185fe094a96f6e8f759f86f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(cb442b26185fe094a96f6e8f759f86f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e65db19d42f101c336a235e376c502') in 0.048400 seconds 
-  Import took 0.050429 seconds .
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Tab_1.png
+  artifactKey: Guid(0b14c10414786be499d80dbce0ad1048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Tab_1.png using Guid(0b14c10414786be499d80dbce0ad1048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebea405059983f8850ea20c060379cbf') in 0.044097 seconds 
+  Import took 0.046362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Cold.png
+  artifactKey: Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Cold.png using Guid(ed297eb21cb5e5e4188600ba2d272554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13419cba956c1aec6e63bf67572a3503') in 0.003788 seconds 
+  Import took 0.005874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Tab.png
+  artifactKey: Guid(128ec9740f6af5342b7cab547f0b4e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Tab.png using Guid(128ec9740f6af5342b7cab547f0b4e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60763a68581e5f776cc32cc77a6e0b89') in 0.011000 seconds 
+  Import took 0.013245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_CircleSlot_0_ArchemyTable.png
+  artifactKey: Guid(ae0ce39c9ae78954d92f006e74a6934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_CircleSlot_0_ArchemyTable.png using Guid(ae0ce39c9ae78954d92f006e74a6934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f4d23c39641172fe388d3834c6d99e') in 0.006456 seconds 
+  Import took 0.008667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Fall.png
+  artifactKey: Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Fall.png using Guid(99897f7919c46fc43969a2a130434315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0359f455bace497ee63a0f3498780f0') in 0.003161 seconds 
+  Import took 0.005100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Image/UI/Archemy Table/Archemy_Base_Arrow.png
+  artifactKey: Guid(f8218600482b57548942596ac5d7dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Archemy Table/Archemy_Base_Arrow.png using Guid(f8218600482b57548942596ac5d7dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e33176eb52b432124a256767fcc12be') in 0.003290 seconds 
+  Import took 0.005306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Tab_2.png
+  artifactKey: Guid(562e6efef52bf47439a556e648bfd33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Tab_2.png using Guid(562e6efef52bf47439a556e648bfd33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60ddc8806b182666b79949a5aa4b922') in 0.003485 seconds 
+  Import took 0.005544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Normal.png
+  artifactKey: Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Normal.png using Guid(8ba8b94b5ab0c214fa2810a7df98a1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafa01b8c7da4a61711f40bf46d9d967') in 0.003062 seconds 
+  Import took 0.004945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Base_UI.png
+  artifactKey: Guid(e408db47ff2bf3a498ebc2aad6076e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Base_UI.png using Guid(e408db47ff2bf3a498ebc2aad6076e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8072a48657f275f89cd014a5f01e750') in 0.007372 seconds 
+  Import took 0.009419 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000195 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(ca87463fada97ab448a72cd015acc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(ca87463fada97ab448a72cd015acc8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02021c2a6aaddf883dadebad1486565b') in 0.018837 seconds 
-  Import took 0.020988 seconds .
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Slot.png
+  artifactKey: Guid(8d567d76e7098bc4b88e9f24e3e2a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Slot.png using Guid(8d567d76e7098bc4b88e9f24e3e2a550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1e7e71e64742a8367c23f916bd18b0') in 0.003746 seconds 
+  Import took 0.005829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Tree.prefab
-  artifactKey: Guid(3c366e305de8ab944a7a634d40ed0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree.prefab using Guid(3c366e305de8ab944a7a634d40ed0fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447e9536e4c3ccb417cf83ef9d51c7a1') in 0.095690 seconds 
-  Import took 0.097811 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Image/Textures/Arechemy Box.png
+  artifactKey: Guid(ff7dfe0a490ad114f949e240a0fec307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/Textures/Arechemy Box.png using Guid(ff7dfe0a490ad114f949e240a0fec307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82ad86af943e1f0b7405c1b88877333') in 0.004195 seconds 
+  Import took 0.006258 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Water Shader
-  artifactKey: Guid(0db442806d388e946b496d56769ce576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Water Shader using Guid(0db442806d388e946b496d56769ce576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf5f5d8c6bc15549646500b191ad8a3') in 0.000676 seconds 
-  Import took 0.002429 seconds .
+  Time since last request: 0.000187 seconds.
+  path: Assets/Image/UI/Archemy Table/Archemy_Base_UI.png
+  artifactKey: Guid(81d8401ce66e7ee47a834a4ace332254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Archemy Table/Archemy_Base_UI.png using Guid(81d8401ce66e7ee47a834a4ace332254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8328421f40de24d94fdd5e2fb01d7dd') in 0.004107 seconds 
+  Import took 0.006152 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Tree 1.prefab
-  artifactKey: Guid(a49a10bc33b7ef8428e9173f327d9313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tree 1.prefab using Guid(a49a10bc33b7ef8428e9173f327d9313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb22aff9ba3c18ed5050759c142a7e9') in 0.018263 seconds 
-  Import took 0.020277 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Arrow.png
+  artifactKey: Guid(0de4ff6a07083a4489ee1d815a546bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Craft_Manual/Craft_Manual_Base_Arrow.png using Guid(0de4ff6a07083a4489ee1d815a546bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1204915bef2e7ed7ad31dbb0ab8d5d') in 0.003352 seconds 
+  Import took 0.005276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.524930 seconds.
-  path: Assets/Sound
-  artifactKey: Guid(86de2a6eff6177447a94afa3e75b45d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sound using Guid(86de2a6eff6177447a94afa3e75b45d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43530460413ba075fc7b8ac3fba06516') in 0.000847 seconds 
-  Import took 0.003251 seconds .
+  Time since last request: 0.000251 seconds.
+  path: Assets/03.Download Package/Island/Textures/Chest.tga
+  artifactKey: Guid(60a295432a08f8047b0eaffa129ee33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Island/Textures/Chest.tga using Guid(60a295432a08f8047b0eaffa129ee33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e12dc24f0d17b27148f8c323821fa4') in 0.007066 seconds 
+  Import took 0.009196 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.363283 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(8afb9a196fe48a845b467514e79feec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8afb9a196fe48a845b467514e79feec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc815c1df12e211f4c05a1799853fbc') in 0.001148 seconds 
-  Import took 0.003504 seconds .
+  Time since last request: 0.000292 seconds.
+  path: Assets/03.Download Package/Island/Textures/Bark.tga
+  artifactKey: Guid(9db6b06ea6927364e9d7a412560b56e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Island/Textures/Bark.tga using Guid(9db6b06ea6927364e9d7a412560b56e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3aad187b5eaace2fbbf572c51e0efff') in 0.005558 seconds 
+  Import took 0.007742 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.356533 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619630eae9f5791dbc2538286577fe8a') in 0.001213 seconds 
-  Import took 0.003450 seconds .
+  Time since last request: 0.000243 seconds.
+  path: Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_ToolTip.png
+  artifactKey: Guid(bfc3579059e8cdc40b9cdc28e7d2a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_ToolTip.png using Guid(bfc3579059e8cdc40b9cdc28e7d2a2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9271299fbe8f4ea1f9f73aa40b3d1cc') in 0.003734 seconds 
+  Import took 0.005850 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001565 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.778 seconds
-Domain Reload Profiling:
-	ReloadAssembly (778ms)
-		BeginReloadAssembly (91ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (220ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.8 MB.
-System memory in use after: 85.9 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2007.
-Total: 2.594700 ms (FindLiveObjects: 0.131400 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.373600 ms  DeleteObjects: 0.041500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 163.175550 seconds.
-  path: Assets/Island/Textures/Materials/Waves.mat
-  artifactKey: Guid(ed8746259da0ea64480c7b02ce4c2135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Island/Textures/Materials/Waves.mat using Guid(ed8746259da0ea64480c7b02ce4c2135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa77680b9e47aa67460943f1b5a908f3') in 0.057463 seconds 
-  Import took 0.060195 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_CircleSlot.png
+  artifactKey: Guid(37f0a4079690cc64ab6b68ae57b9befe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_CircleSlot.png using Guid(37f0a4079690cc64ab6b68ae57b9befe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6698aef72b98accaaaad24e3ecfec6e') in 0.003809 seconds 
+  Import took 0.005876 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001739 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.776 seconds
-Domain Reload Profiling:
-	ReloadAssembly (776ms)
-		BeginReloadAssembly (86ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (639ms)
-			LoadAssemblies (65ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (242ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (149ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.8 MB.
-System memory in use after: 85.9 MB.
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Image/UI/Archemy Table/Archemy_Button.png
+  artifactKey: Guid(a25382b7acb7b7c4cb8d7c744ce6ee78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/Archemy Table/Archemy_Button.png using Guid(a25382b7acb7b7c4cb8d7c744ce6ee78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86acc504e64c7fa59e5c0e2031888d58') in 0.003561 seconds 
+  Import took 0.005564 seconds .
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2010.
-Total: 2.556000 ms (FindLiveObjects: 0.121800 ms CreateObjectMapping: 0.049600 ms MarkObjects: 2.365500 ms  DeleteObjects: 0.018300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_Base.png
+  artifactKey: Guid(c6e263f57d7bd244d9abd14af42b7081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/UI/BasicSurvivalKitComputer/BasicSurvivalKitComputer_UI_Base.png using Guid(c6e263f57d7bd244d9abd14af42b7081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed38c02377b22e7143ba28f0f736a85c') in 0.004390 seconds 
+  Import took 0.006589 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/03.Download Package/Island/Textures/Coconut.tga
+  artifactKey: Guid(a1f3cf009c2c05044b1b7b426a272505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Island/Textures/Coconut.tga using Guid(a1f3cf009c2c05044b1b7b426a272505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b093802ea3fe8b9cb11f83383ecbf91d') in 0.004803 seconds 
+  Import took 0.006996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Dry.png
+  artifactKey: Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/LowPolyTree/LowPolyTreePack/Textures/Colorsheet Tree Dry.png using Guid(9236635f319ab034fa33215e8eaa903a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8619373259f035a76d226b95a58d80fe') in 0.003406 seconds 
+  Import took 0.005462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.803159 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.tga
+  artifactKey: Guid(fae60c9f21f342549b4b5273bb89567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.tga using Guid(fae60c9f21f342549b4b5273bb89567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a79b5f19669152b0e21333ea1cc6f41') in 0.018292 seconds 
+  Import took 0.021061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.149028 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79295579bdd1bc76b8fd9c9a291377a7') in 0.011116 seconds 
+  Import took 0.013690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.737384 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ac278356bc3694809f702e9fa1d578') in 0.004627 seconds 
+  Import took 0.007062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.037562 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab147287c1c6b2502978c3fb7af6e15') in 0.005951 seconds 
+  Import took 0.008606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.009678 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4325ef3913c0b145b667403b3a2d0525') in 0.005539 seconds 
+  Import took 0.008005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3242.979566 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887fe815e21034b2347c73e9149385a5') in 0.007546 seconds 
+  Import took 0.010056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.473304 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c59b18e1d1864d548acfe8e9c9cf4a') in 0.005033 seconds 
+  Import took 0.007308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.781193 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517329f3758fc813611b418a69f17494') in 0.004293 seconds 
+  Import took 0.006732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.955680 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1ead7d0eb8640faa894fbf7d4ff81a') in 0.004497 seconds 
+  Import took 0.006955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.285343 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52065f397d97ce4179173e62ec66e192') in 0.005699 seconds 
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.238772 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d7ae3191819a57090b1bf7ffa951b0') in 0.004816 seconds 
+  Import took 0.007114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.601292 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9427030afd6a4edb231c832c7daca') in 0.004453 seconds 
+  Import took 0.006881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.118889 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaff1dcf6f65a1ec5e3e615c830b399c') in 0.004286 seconds 
+  Import took 0.006556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.400026 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3363404c8211e6f4b7e6d6305dbbb744') in 0.004439 seconds 
+  Import took 0.006642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1402.642564 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6228aeaabb6c46febf81a8b734f99a45') in 0.007406 seconds 
+  Import took 0.010097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.256458 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6207bf608a88002c6a63b1e47556fc') in 0.005200 seconds 
+  Import took 0.007507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.065068 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a40d93e17736d054ddd8f05e2b702ba') in 0.004684 seconds 
+  Import took 0.006817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.808729 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d6679aca44710c8ef8c8afda51d353') in 0.004522 seconds 
+  Import took 0.006990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.107234 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68d7ed69071870ccd50db5fc17e5c45') in 0.005614 seconds 
+  Import took 0.008019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.982596 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51062807602161e9f2025fa01029b3c3') in 0.005326 seconds 
+  Import took 0.007884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.093417 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770c3fc3bfb190e0d72cde607a590e87') in 0.004296 seconds 
+  Import took 0.006494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.007545 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce349e4f62503e8d76f829ca05a7b36') in 0.005448 seconds 
+  Import took 0.008176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.960289 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d294ae518d21dbfbe3be11d7759a1f') in 0.004885 seconds 
+  Import took 0.007312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.862484 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffe3b060f5fa8fa8c31fb6954a6b89a') in 0.004944 seconds 
+  Import took 0.007392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.445770 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1715ecdb4856dfe381ffb0465338b606') in 0.004785 seconds 
+  Import took 0.006997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.521741 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fda8167f5276af6709b62e7dc44836') in 0.007182 seconds 
+  Import took 0.009913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 753.117734 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b26ef40ee332288c8e9205a6fabafb') in 0.006164 seconds 
+  Import took 0.009856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.965886 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1f04971894e6ac49923df0a702ec35') in 0.004484 seconds 
+  Import took 0.006810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.661814 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10f2ec9c0c7b52baeaa24776f1fe5de') in 0.004928 seconds 
+  Import took 0.007416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.581968 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656c5e8f4f851807790171f7de514517') in 0.007528 seconds 
+  Import took 0.010217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.306690 seconds.
+  path: Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd
+  artifactKey: Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/03.Download Package/Box/CardboardBoxesSet/Materials/Textures/cardboardBoxSet_Diffuse.psd using Guid(811bd1f04b0694b498a18eda23965c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd480855b0e3c53fba33f0b419fb467e4') in 0.004763 seconds 
+  Import took 0.007128 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

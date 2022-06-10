@@ -11,17 +11,11 @@ namespace FiveRabbitsDemo
 
         private Animator m_animator;
 
-        // Use this for initialization
+        // 초기화
         void Start()
         {
 
             m_animator = GetComponent<Animator>();
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
 
         }
 
