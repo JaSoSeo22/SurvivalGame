@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+// 아이템 강의 26분에 Rock 스크립트에 내용 추가 필요 + 프리팹 할당 필요
 public class ActionController : MonoBehaviour
 {
 
@@ -22,6 +23,8 @@ public class ActionController : MonoBehaviour
     [SerializeField]
     private Text actionText;
 
+    [SerializeField]
+    private Inventory theInventory;
     // 매 프레임마다 키가 눌리고 있는지 확인
     private void Update() 
     {
@@ -49,6 +52,8 @@ public class ActionController : MonoBehaviour
             {
                 // 어떤 아이템을 획득했는지 확인
                 Debug.Log(hitInfo.transform.GetComponent<ItemPickUp>().item.itemName + "획득했습니다.");
+                // 인벤토리 스크립트 작성 후 추가
+                theInventory.AcquireItem(hitInfo.transform.GetComponent<ItemPickUp>().item);
                 // 획득한 아이템 파괴
                 Destroy(hitInfo.transform.gameObject);
                 ItemInfoDisappear();

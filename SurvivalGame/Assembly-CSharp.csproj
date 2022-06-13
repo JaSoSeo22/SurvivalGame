@@ -36,17 +36,19 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\01.Scripts\Item\ItemPickUp.cs" />
      <Compile Include="Assets\01.Scripts\PlayerController.cs" />
      <Compile Include="Assets\03.Download Package\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
      <Compile Include="Assets\01.Scripts\Hand.cs" />
      <Compile Include="Assets\01.Scripts\JimmyTest\PlayerInput.cs" />
+     <Compile Include="Assets\01.Scripts\Item\ActionController.cs" />
      <Compile Include="Assets\03.Download Package\Island\Scripts\WaterScroller.cs" />
+     <Compile Include="Assets\01.Scripts\Item\Item.cs" />
      <Compile Include="Assets\03.Download Package\Island\Scripts\FixedTiling.cs" />
      <Compile Include="Assets\01.Scripts\HandController.cs" />
      <Compile Include="Assets\01.Scripts\JimmyTest\PlayerMovement.cs" />
-     <Compile Include="Assets\01.Scripts\Item\ActionController.cs" />
-     <Compile Include="Assets\01.Scripts\Item\Item.cs" />
-     <Compile Include="Assets\01.Scripts\Item\ItemPickUp.cs" />
+     <Compile Include="Assets\01.Scripts\Iventory\Slot.cs" />
+     <Compile Include="Assets\01.Scripts\Iventory\Inventory.cs" />
      <None Include="Assets\03.Download Package\LowPolyTree\LowPolyTreePack\README.txt" />
      <None Include="Assets\02.Materials\Water Shader\Water_Shader.shader" />
      <None Include="Assets\03.Download Package\Island\Readme FIRST!.txt" />
