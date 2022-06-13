@@ -62,7 +62,7 @@ public class Inventory : MonoBehaviour
                 {
                     if(slots[i].item.itemName == _item.itemName)
                     {
-                        slots[i].SetSlotColor(_count);
+                        slots[i].SetSlotCount(_count);
                         return;
                     }
                 }
