@@ -43,10 +43,9 @@ public class PlayerController : MonoBehaviour
     //필요한 컴퍼넌트
     [SerializeField]
     private Camera theCamera; //camera component
-
-    //플레이어의 실제 육체(몸)
-    //콜라이더로 충돌 영역 설정, 리지드바디로 콜라이더에 물리적 기능 추가
+    //플레이어의 실제 육체(몸) / 콜라이더로 충돌 영역 설정, 리지드바디로 콜라이더에 물리적 기능 추가
     private Rigidbody myRigid;
+    private GunController theGunController;
 
     void Start()
     {
@@ -59,6 +58,9 @@ public class PlayerController : MonoBehaviour
         //리지드바디 컴퍼넌트를 마이리지드 변수에 넣겠다
         myRigid = GetComponent<Rigidbody>();
         applySpeed = walkSpeed; //달리기 전까지 기본속도는 걷기
+        theGunController = FindObjectOfType<GunController>();
+
+
         //초기화
         originPosY = theCamera.transform.localPosition.y;
         applyCrouchPosY = originPosY; //기본 서있는 상태로 초기화
@@ -169,6 +171,9 @@ public class PlayerController : MonoBehaviour
     {
         if(isCrouch)  //앉은 상태에서 달릴때 앉은 상태 해제
             Crouch(); 
+
+        theGunController.CancelFineSight(); //정조준 모드 해제
+
         isRun = true; 
         applySpeed = runSpeed; //스피드가 RunSpeed로 바뀜
     }

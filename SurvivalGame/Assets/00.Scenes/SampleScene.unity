@@ -168,7 +168,7 @@ Transform:
   - {fileID: 3320663503913812810}
   - {fileID: 1700500264491588853}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &169728107
 MonoBehaviour:
@@ -9917,7 +9917,7 @@ Transform:
   - {fileID: 963194228}
   - {fileID: 1276500304}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 141.238, z: 0}
 --- !u!54 &508032463
 Rigidbody:
@@ -9980,9 +9980,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b75ce53a6514940bf066c432c53789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  rotateSpeed: 180
-  playerRigidbody: {fileID: 0}
 --- !u!114 &551537063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9995,10 +9992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b79312cbec81024b90d2816c47bee3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveAxisName: Vertical
-  rotateAxisName: Horizontal
-  fireButtonName: Fire1
-  reloadButtonName: Reload
 --- !u!136 &551537064
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10044,13 +10037,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'mixamorig6:Hips'\n\tTransform 'mixamorig6:Neck'\n\tTransform
-    'mixamorig6:RightShoulder'\n\tTransform 'mixamorig6:LeftShoulder'\n\tTransform
-    'mixamorig6:Hips'\n\tTransform 'mixamorig6:Spine'\n\tTransform 'mixamorig6:RightArm'\n\tTransform
-    'mixamorig6:LeftUpLeg'\n\tTransform 'mixamorig6:LeftFoot'\n\tTransform 'mixamorig6:RightHand'\n\tand
-    more ...\n\tFrom animation clip 'Idle'"
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -10067,7 +10054,7 @@ Transform:
   m_Children:
   - {fileID: 543450653572178314}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -24684,7 +24671,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -24769,6 +24756,113 @@ Transform:
   m_Father: {fileID: 508032462}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!23 &1078314382
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080047606}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2119156, guid: a0a511126f5f6f4449ec80434dc3dfe8, type: 3}
+  - {fileID: 2197008, guid: a0a511126f5f6f4449ec80434dc3dfe8, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1079127338
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080047606}
+  m_Mesh: {fileID: 4364316, guid: a0a511126f5f6f4449ec80434dc3dfe8, type: 3}
+--- !u!1 &1080047606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1080489512}
+  - component: {fileID: 1095113626}
+  - component: {fileID: 1079127338}
+  - component: {fileID: 1078314382}
+  - component: {fileID: 1085161338}
+  m_Layer: 0
+  m_Name: Tree_a (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1080489512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080047606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.55, y: 9.59817, z: 9.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1085161338
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080047606}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 12.4
+  m_Direction: 1
+  m_Center: {x: 0, y: 5.9, z: 0.21}
+--- !u!193 &1095113626
+Tree:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080047606}
+  m_SpeedTreeWindAsset: {fileID: 0}
+  m_TreeData: {fileID: 11483972, guid: a0a511126f5f6f4449ec80434dc3dfe8, type: 3}
 --- !u!1 &1145034379
 GameObject:
   m_ObjectHideFlags: 0
@@ -34599,7 +34693,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1457370062
 Animator:
@@ -53989,7 +54083,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1921834431
 GameObject:
@@ -54070,7 +54164,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1971952030
 GameObject:
@@ -66692,9 +66786,9 @@ MonoBehaviour:
   currentBulletCount: 10
   maxBulletCount: 0
   carryBulletCount: 23
-  retroActionForce: 0
-  retroActionFineSightForce: 0
-  fineSightOriginPos: {x: 0.55, y: 0.335, z: -0.586}
+  retroActionForce: 0.3
+  retroActionFineSightForce: 0.7
+  fineSightOriginPos: {x: 0.55, y: 0.335, z: -0.557}
   anim: {fileID: 3522553351577333468}
   muzzleFlash: {fileID: 1216712868}
   fire_Sound: {fileID: 8300000, guid: 0cee5ac768e07104d926ffa648478af9, type: 3}
@@ -67834,6 +67928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentGun: {fileID: 3522553351577333470}
   originPos: {x: 0, y: 0, z: 0}
+  theCam: {fileID: 5266737490179114833}
 --- !u!82 &5266737490546366855
 AudioSource:
   m_ObjectHideFlags: 0
@@ -68012,7 +68107,7 @@ Transform:
   m_Children:
   - {fileID: 5266737490303372293}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &5266737490966718421
 Rigidbody:
@@ -70762,7 +70857,7 @@ Transform:
   m_Children:
   - {fileID: 7240703774659984612}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7394697598569113787
 Transform:
