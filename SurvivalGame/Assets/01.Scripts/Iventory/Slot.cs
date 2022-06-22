@@ -15,12 +15,15 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private GameObject go_CountImage; //
 
-    //private WeaponManager theWeaponManager; 
-
+    private WeaponManager theWeaponManager; 
+    // 아이템 버리기 강의
+    private Rect baseRect;
     private void Start() 
     {
         //
-        //theWeaponManager = FindObjectOfType<WeaponManager>();
+        baseRect = transform.parent.parent.GetComponent<RectTransform>().rect;
+        //
+        theWeaponManager = FindObjectOfType<WeaponManager>();
         
     }
 

@@ -13,7 +13,6 @@ public class Item : ScriptableObject
     
     public GameObject itemPrefab; // 아이템의 프리팹
 
-   
     public string weaponType;  // 무기유형
 
     
