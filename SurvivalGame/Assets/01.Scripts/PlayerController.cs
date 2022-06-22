@@ -180,7 +180,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Move() //움직임 실행
     {//상하좌우...move...
-     
+    
         float _moveDirX = Input.GetAxisRaw("Horizontal");
         float _moveDirZ = Input.GetAxisRaw("Vertical");
 

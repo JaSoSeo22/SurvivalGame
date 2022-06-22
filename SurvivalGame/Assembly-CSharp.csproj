@@ -36,49 +36,25 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\01.Scripts\WeaponManager.cs" />
      <Compile Include="Assets\01.Scripts\Item\ItemPickUp.cs" />
-<<<<<<< Updated upstream
-     <Compile Include="Assets\01.Scripts\PlayerController.cs" />
-     <Compile Include="Assets\03.Download Package\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
-     <Compile Include="Assets\01.Scripts\Hand.cs" />
-     <Compile Include="Assets\01.Scripts\JimmyTest\PlayerInput.cs" />
-     <Compile Include="Assets\01.Scripts\Item\ActionController.cs" />
-=======
-     <Compile Include="Assets\01.Scripts\Animal\Rabbit.cs" />
      <Compile Include="Assets\01.Scripts\PlayerController.cs" />
      <Compile Include="Assets\03.Download Package\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
      <Compile Include="Assets\01.Scripts\Iventory\Slot.cs" />
-     <Compile Include="Assets\01.Scripts\CloseWeapon.cs" />
-     <Compile Include="Assets\01.Scripts\StatusController.cs" />
+     <Compile Include="Assets\01.Scripts\Hand.cs" />
      <Compile Include="Assets\01.Scripts\JimmyTest\PlayerInput.cs" />
-     <Compile Include="Assets\01.Scripts\Animal\Pig.cs" />
      <Compile Include="Assets\01.Scripts\Item\ActionController.cs" />
-     <Compile Include="Assets\01.Scripts\CloseWeaponController.cs" />
-     <Compile Include="Assets\01.Scripts\WeaponManager.cs" />
-     <Compile Include="Assets\03.Download Package\Low_Poly_Survival\Scripts\SimpleCameraController.cs" />
->>>>>>> Stashed changes
+     <Compile Include="Assets\03.Download Package\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\03.Download Package\Island\Scripts\WaterScroller.cs" />
      <Compile Include="Assets\01.Scripts\Item\Item.cs" />
      <Compile Include="Assets\03.Download Package\Island\Scripts\FixedTiling.cs" />
-     <Compile Include="Assets\01.Scripts\Hand.cs" />
      <Compile Include="Assets\01.Scripts\HandController.cs" />
      <Compile Include="Assets\01.Scripts\JimmyTest\PlayerMovement.cs" />
-<<<<<<< Updated upstream
-     <Compile Include="Assets\01.Scripts\Iventory\Slot.cs" />
-     <Compile Include="Assets\01.Scripts\Iventory\Inventory.cs" />
-=======
-     <Compile Include="Assets\01.Scripts\GunController.cs" />
-     <Compile Include="Assets\01.Scripts\Gun.cs" />
-     <Compile Include="Assets\01.Scripts\AxeController.cs" />
-     <Compile Include="Assets\01.Scripts\Rock.cs" />
-     <Compile Include="Assets\01.Scripts\JimmyTest\CFollowCam.cs" />
-     <Compile Include="Assets\01.Scripts\Iventory\Inventory.cs" />
-     <Compile Include="Assets\03.Download Package\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
      <Compile Include="Assets\03.Download Package\Off Axis Studios\Polyworks\Shaders\Vertex Colour Batch\UpdateVertexColours.cs" />
+     <Compile Include="Assets\01.Scripts\Iventory\Inventory.cs" />
      <None Include="Assets\03.Download Package\Off Axis Studios\Polyworks\Shaders\Toon Shader\Mainlight.hlsl" />
      <None Include="Assets\03.Download Package\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
      <None Include="Assets\03.Download Package\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
->>>>>>> Stashed changes
      <None Include="Assets\03.Download Package\LowPolyTree\LowPolyTreePack\README.txt" />
      <None Include="Assets\03.Download Package\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
      <None Include="Assets\02.Materials\Water Shader\Water_Shader.shader" />
@@ -306,11 +282,7 @@
         <HintPath>C:\Program Files\Unity 2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-<<<<<<< Updated upstream
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-=======
         <HintPath>C:\Users\user\Desktop\SurvivalGame\SurvivalGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity 2020.3.28f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -658,42 +630,6 @@
         <HintPath>C:\Program Files\Unity 2020.3.28f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-<<<<<<< Updated upstream
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-=======
         <HintPath>C:\Users\user\Desktop\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
@@ -728,7 +664,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>C:\Users\user\Desktop\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 778575783375233517}
   - component: {fileID: 2467235013977774638}
   - component: {fileID: 5846950622941784767}
+  - component: {fileID: 1390373821}
   m_Layer: 0
   m_Name: Rock_Medium_Dirt_03
   m_TagString: Untagged
@@ -81,6 +82,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1390373821
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5717250847977860100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4838841034776189864, guid: 759141432b8ce0f419d1b20e3e677a54, type: 3}
 --- !u!1 &6345751153862845381
 GameObject:
   m_ObjectHideFlags: 0
