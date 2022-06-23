@@ -52,13 +52,34 @@
      <Compile Include="Assets\01.Scripts\JimmyTest\PlayerMovement.cs" />
      <Compile Include="Assets\03.Download Package\Off Axis Studios\Polyworks\Shaders\Vertex Colour Batch\UpdateVertexColours.cs" />
      <Compile Include="Assets\01.Scripts\Iventory\Inventory.cs" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\03.Download Package\Off Axis Studios\Polyworks\Shaders\Toon Shader\Mainlight.hlsl" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\03.Download Package\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\03.Download Package\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\03.Download Package\LowPolyTree\LowPolyTreePack\README.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\03.Download Package\Customizable Skybox\Stylized Sky\Shaders\Stylized Sky.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\02.Materials\Water Shader\Water_Shader.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\03.Download Package\Island\Readme FIRST!.txt" />
+     <None Include="Assets\03.Download Package\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -282,7 +303,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -630,40 +651,40 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.28f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\SurvivalGame\SurvivalGame-ks\SurvivalGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>E:\Unity\GItHub\SurvivalGame\SurvivalGame\SurvivalGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
